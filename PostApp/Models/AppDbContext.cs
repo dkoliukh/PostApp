@@ -27,6 +27,27 @@ namespace PostApp.Models
 
 		[Lookup]
 		public DbSet<Street> Street { get; set; }
+
+		[Lookup]
+		public DbSet<CargoType> CargoType { get; set; }
+
+		[Lookup]
+		public DbSet<ContactType> ContactType { get; set; }
+
+		[Lookup]
+		public DbSet<DepartmentType> DepartmentType { get; set; }
+
+		[Lookup]
+		public DbSet<DocumentType> DocumentType { get; set; }
+
+		[Lookup]
+		public DbSet<Gender> Gender { get; set; }
+
+		[Lookup]
+		public DbSet<LoadCarryingCapacity> LoadCarryingCapacity { get; set; }
+
+		[Lookup]
+		public DbSet<PaymentType> PaymentType { get; set; }
 		#endregion
 		#endregion
 
