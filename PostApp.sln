@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28315.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostApp", "PostApp\PostApp.csproj", "{EC04D4FB-0EE2-41E8-85B3-9F381CEFA3BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC04D4FB-0EE2-41E8-85B3-9F381CEFA3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC04D4FB-0EE2-41E8-85B3-9F381CEFA3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC04D4FB-0EE2-41E8-85B3-9F381CEFA3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC04D4FB-0EE2-41E8-85B3-9F381CEFA3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E978B3D8-5420-410C-BFD4-0F9F9FAC3027}
+	EndGlobalSection
+EndGlobal
