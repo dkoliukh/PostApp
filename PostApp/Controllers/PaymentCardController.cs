@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PostApp.Models;
+using PostApp.Models.Database;
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -52,7 +53,7 @@ namespace PostApp.Controllers
         }
 
         [HttpPut("{id}")]
-        public async Task<ActionResult> Put(Guid id, [FromBody] PaymentCard value)
+        public ActionResult Put(Guid id, [FromBody] PaymentCard value)
         {
 			AppDbContext.PaymentCard.Update(value);
 			return Ok();

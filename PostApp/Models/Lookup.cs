@@ -4,8 +4,4 @@
 	{
 		public string Name { get; set; }
 	}
-	
-	public class PaymentSystem : Lookup
-	{
-	}
 }

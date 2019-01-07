@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace PostApp.Models
+namespace PostApp.Models.Database
 {
 	#region Class : PaymentCard
 	public class PaymentCard : BaseEntity
@@ -15,7 +15,7 @@ namespace PostApp.Models
 
 		public string CVV { get; set; }
 
-		[ForeignKey("PaymentSystem")]
+		[ForeignKey(nameof(PaymentSystem))]
 		public Guid? PaymentSystemId { get; set; }
 		#endregion
 
